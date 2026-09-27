@@ -1,1 +1,132 @@
+run -all
+# WRITE: Data=255 Queue_Size=1
+# READ PASS: Expected=255 Actual=255
+# WRITE: Data=207 Queue_Size=1
+# WRITE: Data=123 Queue_Size=2
+# WRITE: Data=115 Queue_Size=3
+# WRITE: Data=137 Queue_Size=4
+# WRITE: Data=122 Queue_Size=5
+# WRITE: Data=95 Queue_Size=6
+# WRITE: Data=84 Queue_Size=7
+# WRITE: Data=153 Queue_Size=8
+# IGNORED: FIFO rejected operation
+# IGNORED: FIFO rejected operation
+# IGNORED: FIFO rejected operation
+# IGNORED: FIFO rejected operation
+# READ PASS: Expected=207 Actual=207
+# IGNORED: FIFO rejected operation
+# READ PASS: Expected=123 Actual=123
+# READ PASS: Expected=115 Actual=115
+# READ PASS: Expected=137 Actual=137
+# WRITE: Data=142 Queue_Size=5
+# READ PASS: Expected=122 Actual=122
+# IGNORED: FIFO rejected operation
+# IGNORED: FIFO rejected operation
+# READ PASS: Expected=95 Actual=95
+# WRITE: Data=41 Queue_Size=4
+# IGNORED: FIFO rejected operation
+# WRITE: Data=122 Queue_Size=5
+# READ PASS: Expected=84 Actual=84
+# WRITE: Data=208 Queue_Size=5
+# IGNORED: FIFO rejected operation
+# WRITE: Data=212 Queue_Size=6
+# IGNORED: FIFO rejected operation
+# READ PASS: Expected=153 Actual=153
+# WRITE: Data=2 Queue_Size=6
+# IGNORED: FIFO rejected operation
+# READ PASS: Expected=142 Actual=142
+# READ PASS: Expected=41 Actual=41
+# IGNORED: FIFO rejected operation
+# WRITE: Data=48 Queue_Size=5
+# WRITE: Data=74 Queue_Size=6
+# READ PASS: Expected=122 Actual=122
+# WRITE: Data=140 Queue_Size=6
+# READ PASS: Expected=208 Actual=208
+# WRITE: Data=73 Queue_Size=6
+# READ PASS: Expected=212 Actual=212
+# WRITE: Data=115 Queue_Size=6
+# READ PASS: Expected=2 Actual=2
+# READ PASS: Expected=48 Actual=48
+# WRITE: Data=80 Queue_Size=5
+# READ PASS: Expected=74 Actual=74
+# WRITE: Data=205 Queue_Size=5
+# WRITE: Data=239 Queue_Size=6
+# WRITE: Data=150 Queue_Size=7
+# READ PASS: Expected=140 Actual=140
+# WRITE: Data=161 Queue_Size=7
+# WRITE: Data=53 Queue_Size=8
+# READ PASS: Expected=73 Actual=73
+# READ PASS: Expected=115 Actual=115
+# WRITE: Data=144 Queue_Size=7
+# READ PASS: Expected=80 Actual=80
+# READ PASS: Expected=205 Actual=205
+# IGNORED: FIFO rejected operation
+# WRITE: Data=202 Queue_Size=6
+# WRITE: Data=241 Queue_Size=7
+# READ PASS: Expected=239 Actual=239
+# IGNORED: FIFO rejected operation
+# READ PASS: Expected=150 Actual=150
+# READ PASS: Expected=161 Actual=161
+# READ PASS: Expected=53 Actual=53
+# WRITE: Data=33 Queue_Size=4
+# READ PASS: Expected=144 Actual=144
+# WRITE: Data=201 Queue_Size=4
+# WRITE: Data=172 Queue_Size=5
+# READ PASS: Expected=202 Actual=202
+# READ PASS: Expected=241 Actual=241
+# READ PASS: Expected=33 Actual=33
+# WRITE: Data=218 Queue_Size=3
+# READ PASS: Expected=201 Actual=201
+# READ PASS: Expected=172 Actual=172
+# WRITE: Data=215 Queue_Size=2
+# WRITE: Data=114 Queue_Size=3
+# READ PASS: Expected=218 Actual=218
+# WRITE: Data=64 Queue_Size=3
+# IGNORED: FIFO rejected operation
+# READ PASS: Expected=215 Actual=215
+# READ PASS: Expected=114 Actual=114
+# READ PASS: Expected=64 Actual=64
+# IGNORED: FIFO rejected operation
+# WRITE: Data=107 Queue_Size=1
+# IGNORED: FIFO rejected operation
+# WRITE: Data=104 Queue_Size=2
+# READ PASS: Expected=107 Actual=107
+# READ PASS: Expected=104 Actual=104
+# WRITE: Data=220 Queue_Size=1
+# WRITE: Data=67 Queue_Size=2
+# IGNORED: FIFO rejected operation
+# IGNORED: FIFO rejected operation
+# READ PASS: Expected=220 Actual=220
+# WRITE: Data=163 Queue_Size=2
+# IGNORED: FIFO rejected operation
+# WRITE: Data=221 Queue_Size=3
+# WRITE: Data=63 Queue_Size=4
+# READ PASS: Expected=67 Actual=67
+# WRITE: Data=31 Queue_Size=4
+# READ PASS: Expected=163 Actual=163
+# WRITE: Data=121 Queue_Size=4
+# READ PASS: Expected=221 Actual=221
+# READ PASS: Expected=63 Actual=63
+# WRITE: Data=183 Queue_Size=3
+# WRITE: Data=234 Queue_Size=4
+# WRITE: Data=116 Queue_Size=5
+# READ PASS: Expected=31 Actual=31
+# READ PASS: Expected=121 Actual=121
+# WRITE: Data=111 Queue_Size=4
+# WRITE: Data=138 Queue_Size=5
+# READ PASS: Expected=183 Actual=183
+# IGNORED: FIFO rejected operation
+# ========================================
+#          FIFO SCOREBOARD SUMMARY        
+# ========================================
+# Total Transactions : 100
+# PASS               : 46
+# FAIL               : 0
+# Remaining Queue    : 4
+# ========================================
+# ** Note: $finish    : tb/fifo_test.sv(93)
+#    Time: 1016 ns  Iteration: 2  Instance: /fifo_test
+# 1
+# Break in Module fifo_test at tb/fifo_test.sv line 93
+
 
