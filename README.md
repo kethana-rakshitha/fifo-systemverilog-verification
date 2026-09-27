@@ -110,3 +110,9 @@ Randomized Transaction
         |
         v
      PASS / FAIL
+
+## Simulation Waveform
+
+![FIFO Simulation Waveform](./Fifo_waveform.jpeg/Screenshot%202026-09-27%20142814.png)
+
+[View Full-Size Waveform](./Fifo_waveform.jpeg/Screenshot%202026-09-27%20142814.png)
